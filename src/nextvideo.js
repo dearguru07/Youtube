@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 
-const NextVideo=(source)=>{
+const NextVideo=()=>{
     const {id}=useParams()
     const emdedUrl="https://www.youtube.com/embed/"
     return <div>

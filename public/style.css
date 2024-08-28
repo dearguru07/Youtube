@@ -22,7 +22,7 @@ body {
   padding: 10px;
 }
 .body {
-  width: auto;
+  width: 99%;
   /* background-color: blueviolet; */
   height: 100vh;
   display: flex;
@@ -87,10 +87,33 @@ body {
   padding: 20px;
   box-shadow: 0px 0px 5px #d9d9d9;
   height: 100%;
+  margin-top: -30px;
 }
 .maincontainer {
   width: 80%;
   height: 100%;
+}
+
+.v-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  display: flex;
+  margin-top: -10px;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.video {
+  width: 380px;
+  margin: 5px;
+  margin-top: 10px;
+  align-items: center;
+  cursor: pointer;
 }
 .btn-container {
   width: 100%;
@@ -101,40 +124,34 @@ body {
   align-items: center;
   padding-left: 10px;
 }
-.v-container {
-  width: 100%;
-  height: 100%;
-  padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  overflow-y: auto;
-  justify-content: space-between;
-  align-items: center;
-}
-.video {
-  width: 380px;
-  margin: 5px;
-  margin-top: 10px;
-  align-items: center;
-  cursor: pointer;
-}
 .btn-items {
   border: none;
   padding: 6px 10px;
   font-size: 15px;
   font-weight: bolder;
   border-radius: 7px;
+  background-color: rgb(241, 240, 240);
   margin: 4px;
   margin-right: 5px;
+  cursor: pointer;
+}
+.btn-items:hover {
+  background-color: rgb(169, 164, 164);
+}
+.btn-items:focus{
+  background-color: black;
+  color: white;
 }
 .btn-flex {
-  width: 100%;
+  width: 98%;
   display: flex;
-  background-color: rgb(160, 154, 154);
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.458);
+  border-radius: 7px;
   justify-content: space-between;
+  /* height: 35px; */
+  padding: 1px 5px;
+  margin-top: -10px;
+  /* margin-left: -10px; */
 }
 .side-btn {
   width: 100%;
@@ -142,6 +159,7 @@ body {
   text-align: start;
   border: none;
   padding: 10px 10px;
+  cursor: pointer;
   font-size: 18px;
   font-weight: bolder;
   border-radius: 7px;
@@ -191,14 +209,14 @@ body {
 .u-image {
   width: 100%;
   height: 220px;
-  background-color: rgb(150, 144, 144);
+  background-color: rgba(131, 123, 123, 0.381);
   border-radius: 15px;
 }
 .u-title {
   width: 340px;
   border-radius: 20px;
   height: 15px;
-  background-color: rgb(150, 144, 144);
+  background-color: rgba(150, 144, 144, 0.59);
   padding: 2px;
   /* margin-top: 10px; */
 }
@@ -206,7 +224,7 @@ body {
   width: 190px;
   height: 14px;
   border-radius: 20px;
-  background-color: rgb(150, 144, 144);
+  background-color: rgba(150, 144, 144, 0.59);
   padding: 2px;
   margin-top: -12px;
   margin-bottom: 50px;
@@ -214,7 +232,7 @@ body {
 .u-views {
   width: 90px;
   height: 13px;
-  background-color: rgb(150, 144, 144);
+  background-color: rgba(150, 144, 144, 0.59);
   padding: 2px;
   border-radius: 10px;
   margin-top: -40px;

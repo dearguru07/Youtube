@@ -8,7 +8,9 @@ const ShimmerCard=()=>{
         <h4 className="u-channel"></h4>
         <h6 className="u-views"></h6>
         </div>
+        
     </div>
+    
 }
 const Shimmer=()=>{
     return <div className="v-container">
