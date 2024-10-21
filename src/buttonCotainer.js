@@ -2,7 +2,7 @@ const Button = () => {
   return (
     <div className="btn-flex">
       <div>
-        <button className="btn-items">All</button>
+        <button className="btn-items black">All</button>
       </div>
       <div>
         <button className="btn-items">Trending</button>
