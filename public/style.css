@@ -80,7 +80,7 @@ body {
 .nav-items {
   display: flex;
   align-items: center;
-  padding: 20px;
+  cursor: pointer;
 }
 .sidebar {
   width: 20%;
@@ -168,6 +168,10 @@ body {
   font-weight: bolder;
   border-radius: 7px;
   margin: 10px;
+}
+.side-btn:hover{
+  background-color: grey;
+  color: white;
 }
 .side-ico {
   margin-right: 30px;
